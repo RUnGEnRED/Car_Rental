@@ -27,7 +27,7 @@
             <Font size="19.0" />
          </font>
       </Button>
-      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" onAction="#switchToSceneCarFleetMain" prefHeight="80.0" prefWidth="600.0" text="Flota samochodów">
+      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" onAction="#switchToSceneCarFleetMain" prefHeight="80.0" prefWidth="600.0" text="Flota Pojazdów">
          <font>
             <Font size="19.0" />
          </font>

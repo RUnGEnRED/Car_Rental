@@ -9,7 +9,11 @@ module com.project.car_rental {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     //requires eu.hansolo.tilesfx;
+    requires org.hibernate.orm.core; // Line Added
+    requires jakarta.persistence; // Line Added
 
-    opens com.project.car_rental to javafx.fxml;
+    requires java.naming; // Line Added
+
+    opens com.project.car_rental to javafx.fxml, org.hibernate.orm.core; // Line extended
     exports com.project.car_rental;
 }

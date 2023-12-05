@@ -13,7 +13,7 @@
             <Font name="Arial Bold" size="29.0" />
          </font>
       </Label>
-      <Button layoutX="275.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Zapisz">
+      <Button layoutX="451.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Zapisz">
          <font>
             <Font size="19.0" />
          </font>
@@ -28,5 +28,10 @@
       <TextField layoutX="140.0" layoutY="275.0" prefHeight="45.0" prefWidth="520.0" promptText="Adres" />
       <TextField layoutX="140.0" layoutY="335.0" prefHeight="45.0" prefWidth="520.0" promptText="Telefon" />
       <TextField layoutX="140.0" layoutY="394.0" prefHeight="45.0" prefWidth="520.0" promptText="E-mail" />
+      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Usuń">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

@@ -1,4 +1,4 @@
-package com.project.car_rental;
+package com.project.car_rental.entities;
 
 // Java Program to Illustrate Creation of Simple POJO Class
 

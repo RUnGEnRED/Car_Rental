@@ -139,6 +139,14 @@
       <scope>runtime</scope>
     </dependency>
 
+    <!-- Tornado FX Controls -->
+    <!-- https://mvnrepository.com/artifact/no.tornado/tornadofx-controls -->
+    <dependency>
+      <groupId>no.tornado</groupId>
+      <artifactId>tornadofx-controls</artifactId>
+      <version>1.0.6</version>
+    </dependency>
+
     <!-- JUnit dependencies -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>

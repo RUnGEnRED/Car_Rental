@@ -14,6 +14,19 @@ module com.project.car_rental {
 
     requires java.naming; // Line Added
 
+    // Car_rental
     opens com.project.car_rental to javafx.fxml, org.hibernate.orm.core; // Line extended
-    exports com.project.car_rental;
+    exports com.project.car_rental; // Line extended
+
+    // Controllers
+    exports com.project.car_rental.controllers; // Line extended
+    opens com.project.car_rental.controllers to javafx.fxml, org.hibernate.orm.core; // Line extended
+
+    // Utilities
+    exports com.project.car_rental.utilities; // Line extended
+    opens com.project.car_rental.utilities to javafx.fxml, org.hibernate.orm.core; // Line extended
+
+    // Entities
+    exports com.project.car_rental.entities; // Line extended
+    opens com.project.car_rental.entities to javafx.fxml, org.hibernate.orm.core;
 }

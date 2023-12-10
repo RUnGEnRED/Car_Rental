@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.car_rental.controllers.CarFleetAddController">
+   <children>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="35.0" prefHeight="105.0" prefWidth="601.0" style="-fx-border-color: black; -fx-border-width: 1; -fx-padding: 10; -fx-border-radius: 15;" text="Add Vehicle">
+         <font>
+            <Font name="Arial Bold" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="275.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Add Vehicle">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="706.0" layoutY="541.0" mnemonicParsing="false" onAction="#switchToSceneCarFleetMain" prefHeight="45.0" prefWidth="80.0" text="Return">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ScrollPane layoutX="100.0" layoutY="150.0" prefHeight="290.0" prefWidth="600.0">
+         <content>
+            <AnchorPane>
+               <VBox layoutX="15.0" layoutY="15.0" prefWidth="555.0" spacing="10.0">
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Brand" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Model" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Vehicle Class" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Year of Production" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Transmission" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Horsepower" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Fuel Consumption" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Fuel Type" />
+                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Price per Day" />
+                  <padding>
+                     <Insets bottom="15.0" />
+                  </padding>
+               </VBox>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

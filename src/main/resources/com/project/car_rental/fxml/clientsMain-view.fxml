@@ -34,17 +34,17 @@
         <TextField layoutX="100.0" layoutY="160.0" prefHeight="30.0" prefWidth="600.0" promptText="Search" />
         <ScrollPane layoutX="100.0" layoutY="200.0" prefHeight="240.0" prefWidth="600.0">
          <content>
-              <TableView>
+              <TableView fx:id="tableView">
                   <columns>
-                      <TableColumn prefWidth="120.0" text="First Name" />
-                      <TableColumn prefWidth="120.0" text="Last Name" />
-                      <TableColumn prefWidth="120.0" text="Phone" />
-                      <TableColumn prefWidth="120.0" text="E-mail" />
-                      <TableColumn prefWidth="120.0" text="Address" />
-                      <TableColumn prefWidth="120.0" text="Number" />
-                      <TableColumn prefWidth="120.0" text="Local" />
-                      <TableColumn prefWidth="120.0" text="City" />
-                      <TableColumn prefWidth="120.0" text="Zip code" />
+                      <TableColumn fx:id="firstNameColumn" prefWidth="120.0" text="First Name" />
+                      <TableColumn fx:id="lastNameColumn" prefWidth="120.0" text="Last Name" />
+                      <TableColumn fx:id="phoneColumn" prefWidth="120.0" text="Phone" />
+                      <TableColumn fx:id="emailColumn" prefWidth="120.0" text="E-mail" />
+                      <TableColumn fx:id="addressColumn" prefWidth="120.0" text="Address" />
+                      <TableColumn fx:id="numberColumn" prefWidth="120.0" text="Number" />
+                      <TableColumn fx:id="localColumn" prefWidth="120.0" text="Local" />
+                      <TableColumn fx:id="cityColumn" prefWidth="120.0" text="City" />
+                      <TableColumn fx:id="zipCodeColumn" prefWidth="120.0" text="Zip code" />
                   </columns>
               </TableView>
          </content>

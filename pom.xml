@@ -118,6 +118,14 @@
       <version>6.4.0.Final</version>
     </dependency>
 
+    <!-- Gson -->
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+
     <!-- slf4j -->
     <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
     <dependency>
@@ -182,7 +190,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.project.car_rental/com.project.car_rental.Main</mainClass>
+              <mainClass>com.project.car_rental/com.project.car_rental.client.ClientMain</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

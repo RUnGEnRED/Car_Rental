@@ -16,7 +16,7 @@
             <Font name="Arial Bold" size="29.0" />
          </font>
       </Label>
-      <Button layoutX="275.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Add Vehicle">
+      <Button layoutX="275.0" layoutY="450.0" mnemonicParsing="false" onAction="#createVehicle" prefHeight="80.0" prefWidth="250.0" text="Add Vehicle">
          <font>
             <Font size="19.0" />
          </font>
@@ -30,15 +30,15 @@
          <content>
             <AnchorPane>
                <VBox layoutX="15.0" layoutY="15.0" prefWidth="555.0" spacing="10.0">
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Brand" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Model" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Vehicle Class" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Year of Production" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Transmission" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Horsepower" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Fuel Consumption" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Fuel Type" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Price per Day" />
+                  <TextField fx:id="brand" prefHeight="45.0" prefWidth="400.0" promptText="Brand" />
+                  <TextField fx:id="model" prefHeight="45.0" prefWidth="400.0" promptText="Model" />
+                  <TextField fx:id="vehicleClass" prefHeight="45.0" prefWidth="400.0" promptText="Vehicle Class" />
+                  <TextField fx:id="yearOfProduction" prefHeight="45.0" prefWidth="400.0" promptText="Year of Production" />
+                  <TextField fx:id="transmission" prefHeight="45.0" prefWidth="400.0" promptText="Transmission" />
+                  <TextField fx:id="horsepower" prefHeight="45.0" prefWidth="400.0" promptText="Horsepower" />
+                  <TextField fx:id="fuelConsumption" prefHeight="45.0" prefWidth="400.0" promptText="Fuel Consumption" />
+                  <TextField fx:id="fuelType" prefHeight="45.0" prefWidth="400.0" promptText="Fuel Type" />
+                  <TextField fx:id="pricePerDay" prefHeight="45.0" prefWidth="400.0" promptText="Price per Day" />
                   <padding>
                      <Insets bottom="15.0" />
                   </padding>

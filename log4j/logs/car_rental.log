@@ -1,0 +1,4 @@
+ERROR	2024-01-21 19:22:52,649	0	org.hibernate.engine.jdbc.spi.SqlExceptionHelper	[Thread-0]	Column 'CustomerName' not found.
+ERROR	2024-01-21 19:24:35,956	0	org.hibernate.engine.jdbc.spi.SqlExceptionHelper	[Thread-0]	Column 'CustomerName' not found.
+ERROR	2024-01-21 19:26:24,907	0	org.hibernate.engine.jdbc.spi.SqlExceptionHelper	[Thread-0]	Column 'CustomerID' not found.
+ERROR	2024-01-22 00:11:44,757	0	com.project.car_rental.client.controllers.CustomersAddController	[JavaFX Application Thread]	Customers has been loaded successfully

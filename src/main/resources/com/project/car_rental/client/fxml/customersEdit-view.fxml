@@ -16,7 +16,7 @@
             <Font name="Arial Bold" size="29.0" />
          </font>
       </Label>
-      <Button layoutX="451.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Save">
+      <Button layoutX="451.0" layoutY="450.0" mnemonicParsing="false" onAction="#updateCustomer" prefHeight="80.0" prefWidth="250.0" text="Save">
          <font>
             <Font size="19.0" />
          </font>
@@ -26,7 +26,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="250.0" text="Remove">
+      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="80.0" prefWidth="250.0" text="Remove">
          <font>
             <Font size="19.0" />
          </font>
@@ -35,15 +35,15 @@
          <content>
             <AnchorPane>
                <VBox layoutX="15.0" layoutY="15.0" prefWidth="555.0" spacing="10.0">
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="First Name" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Last Name" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Phone" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="E-mail" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Address" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Number" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Local" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="City" />
-                  <TextField prefHeight="45.0" prefWidth="400.0" promptText="Zip code" />
+                  <TextField fx:id="firstName" prefHeight="45.0" prefWidth="400.0" promptText="First Name" />
+                  <TextField fx:id="lastName" prefHeight="45.0" prefWidth="400.0" promptText="Last Name" />
+                  <TextField fx:id="phone" prefHeight="45.0" prefWidth="400.0" promptText="Phone" />
+                  <TextField fx:id="email" prefHeight="45.0" prefWidth="400.0" promptText="E-mail" />
+                  <TextField fx:id="address" prefHeight="45.0" prefWidth="400.0" promptText="Address" />
+                  <TextField fx:id="number" prefHeight="45.0" prefWidth="400.0" promptText="Number" />
+                  <TextField fx:id="local" prefHeight="45.0" prefWidth="400.0" promptText="Local" />
+                  <TextField fx:id="city" prefHeight="45.0" prefWidth="400.0" promptText="City" />
+                  <TextField fx:id="zipCode" prefHeight="45.0" prefWidth="400.0" promptText="Zip code" />
                   <padding>
                      <Insets bottom="15.0" />
                   </padding>

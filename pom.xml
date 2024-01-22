@@ -72,17 +72,6 @@
       <artifactId>bootstrapfx-core</artifactId>
       <version>0.4.0</version>
     </dependency>
-    <dependency>
-      <groupId>eu.hansolo</groupId>
-      <artifactId>tilesfx</artifactId>
-      <version>17.1.17</version>
-      <exclusions>
-        <exclusion>
-          <groupId>org.openjfx</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
 
     <!-- Hibernate and MySQL -->
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -139,13 +128,6 @@
       <artifactId>slf4j-log4j12</artifactId>
       <version>2.0.9</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
-      <scope>runtime</scope>
-    </dependency>
 
     <!-- Tornado FX Controls -->
     <!-- https://mvnrepository.com/artifact/no.tornado/tornadofx-controls -->
@@ -168,6 +150,11 @@
       <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.openjfx</groupId>
+          <artifactId>javafx-base</artifactId>
+          <version>21-ea+24</version>
+      </dependency>
   </dependencies>
 
   <build>
